@@ -1,8 +1,11 @@
 main {
   display: grid;
-  left: 5%;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0px;
+}
+
+app-board {
+  align-content: center;
 }
 
 app-square {
